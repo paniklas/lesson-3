@@ -6,12 +6,12 @@ const App = () => {
         {/* Header */}
         <header className="bg-gray-800 text-white px-4 flex justify-between items-center">
           {/* Logo on the left */}
-          <div className="logo">
+          <div className="flex">
             <img src="logo/logo.png" alt="Logo" className="h-16 w-auto" />
           </div>
           {/* Navigation Links on the right */}
           <nav>
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-4 text-2xl justify-center items-center">
               <li>
                 <a href="#superhero" className="hover:underline">Superhero</a>
               </li>
@@ -21,6 +21,7 @@ const App = () => {
               <li>
                 <a href="#history" className="hover:underline">History</a>
               </li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" height="20" width="20" id="Magnifying-Glass--Streamline-Core"><g id="magnifying-glass--glass-search-magnifying"><path id="Vector" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" d="M6 11.5c3.03757 0 5.5 -2.46243 5.5 -5.5S9.03757 0.5 6 0.5 0.5 2.96243 0.5 6s2.46243 5.5 5.5 5.5Z" strokeWidth="1"></path><path id="Vector_2" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" d="M13.5 13.5 10 10" strokeWidth="1"></path></g></svg>
             </ul>
           </nav>
         </header>
